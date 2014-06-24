@@ -24,4 +24,4 @@ ROOT_URLCONF = 'django_ssl_test.urls'
 # The SECRET_KEY setting must not be empty.
 SECRET_KEY='ZU_hds)oM$%cn$Z8%88x%97Wjx2;8`'
 
-#SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
