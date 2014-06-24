@@ -1,3 +1,8 @@
+ALLOWED_HOSTS = (
+    '0.0.0.0',
+    '127.0.0.1',
+)
+
 # settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
 DATABASES = {
     # You must define a 'default' database
@@ -8,7 +13,7 @@ DATABASES = {
 }
 
 # You must set settings.ALLOWED_HOSTS if DEBUG is False.
-DEBUG = True
+#DEBUG = True
 
 INSTALLED_APPS = (
     'sslify',
