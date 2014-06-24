@@ -1,1 +1,1 @@
-web: django-admin.py runserver --settings.django_ssl_test
+web: django-admin.py runserver --settings=django_ssl_test.settings
