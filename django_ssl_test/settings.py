@@ -1,7 +1,6 @@
-ALLOWED_HOSTS = (
-    '0.0.0.0',
-    '127.0.0.1',
-)
+ALLOWED_HOSTS = [
+    '*',
+]
 
 # settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
 DATABASES = {
