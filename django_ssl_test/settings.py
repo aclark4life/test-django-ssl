@@ -16,10 +16,12 @@ DATABASES = {
 
 INSTALLED_APPS = (
 #    'sslify',
+    'djangosecure',
 )
 
 MIDDLEWARE_CLASSES = (
 #    'sslify.middleware.SSLifyMiddleware',
+    'djangosecure.middleware.SecurityMiddleware',
 )
 
 # 'Settings' object has no attribute 'ROOT_URLCONF'
@@ -29,3 +31,4 @@ ROOT_URLCONF = 'django_ssl_test.urls'
 SECRET_KEY='ZU_hds)oM$%cn$Z8%88x%97Wjx2;8`'
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
