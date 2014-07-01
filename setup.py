@@ -9,6 +9,7 @@ setup(
     install_requires=[
         'Django',
         'django-sslify',
+        'django-secure',
     ],
     name='django_ssl_test',
     namespace_packages=[

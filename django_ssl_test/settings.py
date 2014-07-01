@@ -15,11 +15,11 @@ DATABASES = {
 #DEBUG = True
 
 INSTALLED_APPS = (
-    'sslify',
+#    'sslify',
 )
 
 MIDDLEWARE_CLASSES = (
-    'sslify.middleware.SSLifyMiddleware',
+#    'sslify.middleware.SSLifyMiddleware',
 )
 
 # 'Settings' object has no attribute 'ROOT_URLCONF'
